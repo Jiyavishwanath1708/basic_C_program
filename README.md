@@ -69,6 +69,25 @@ age after Updated : 25
 * Basic Syntax
 
 ---
+
+# 3️⃣ Basic Structure of C Program
+## 📌 Topics 
+```
+1. Documentation Section  
+2. Preprocessor Section  
+3. Definition Section  
+4. Global Declaration  
+5. Main Function  
+6. Sub Program (Function)  
+```
+---
+## 💻 Output
+```
+Global Variable = 10
+Radius = 5
+Area of Circle = 78.50
+This is a sub program (function).
+```
 ## 🛠️ How to Run
 
 1. Install any C compiler (like GCC)

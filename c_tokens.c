@@ -55,8 +55,16 @@ void strings() {
    
 
 }
+#include <stdio.h>
+
 void special_symbols() {
-    printf("Asterisk(*)\t assignment opertor(=)\n brackets\t braces\n cooma\t colon\n semicolon\t pareantheses[ () ]\n pre-processor (#)\t period( . )");
+    printf("Special Symbols:\n");
+    printf("-------------------------\n");
+    printf("Asterisk (*)\t\tAssignment Operator (=)\n");
+    printf("Brackets [ ]\t\tBraces { }\n");
+    printf("Comma (,)\t\tColon (:)\n");
+    printf("Semicolon (;)\t\tParentheses ( )\n");
+    printf("Pre-processor (#)\tPeriod (.)\n");
 }
 void operators() {
     int a = 10, b = 5, result;

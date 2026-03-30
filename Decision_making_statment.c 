@@ -1,0 +1,115 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main() {
+    int choice;
+
+    do {
+        printf("\n===== MENU =====\n");
+        printf("1. if statement\n");
+        printf("2. if-else statement\n");
+        printf("3. Nested if\n");
+        printf("4. else-if ladder\n");
+        printf("5. switch statement\n");
+        printf("6. Ternary operator\n");
+        printf("0. Exit\n");
+        printf("Enter your choice: ");
+        scanf("%d", &choice);
+
+        switch(choice) {
+
+            case 1: {
+                int num;
+                printf("Enter a number: ");
+                scanf("%d", &num);
+
+                if(num > 0) {
+                    printf("Number is positive\n");
+                }
+                break;
+            }
+
+            case 2: {
+                int num;
+                printf("Enter a number: ");
+                scanf("%d", &num);
+
+                if(num % 2 == 0)
+                    printf("Even number\n");
+                else
+                    printf("Odd number\n");
+                break;
+            }
+
+            case 3: {
+                int num;
+                printf("Enter a number: ");
+                scanf("%d", &num);
+
+                if(num > 0) {
+                    if(num % 2 == 0)
+                        printf("Positive Even\n");
+                    else
+                        printf("Positive Odd\n");
+                } else {
+                    printf("Number is not positive\n");
+                }
+                break;
+            }
+
+            case 4: {
+                int marks;
+                printf("Enter marks: ");
+                scanf("%d", &marks);
+
+                if(marks >= 90)
+                    printf("Grade A\n");
+                else if(marks >= 75)
+                    printf("Grade B\n");
+                else if(marks >= 50)
+                    printf("Grade C\n");
+                else
+                    printf("Fail\n");
+                break;
+            }
+
+            case 5: {
+                int day;
+                printf("Enter day number (1-7): ");
+                scanf("%d", &day);
+
+                switch(day) {
+                    case 1: printf("Monday\n"); break;
+                    case 2: printf("Tuesday\n"); break;
+                    case 3: printf("Wednesday\n"); break;
+                    case 4: printf("Thursday\n"); break;
+                    case 5: printf("Friday\n"); break;
+                    case 6: printf("Saturday\n"); break;
+                    case 7: printf("Sunday\n"); break;
+                    default: printf("Invalid day\n");
+                }
+                break;
+            }
+
+            case 6: {
+                int a, b;
+                printf("Enter two numbers: ");
+                scanf("%d %d", &a, &b);
+
+                int max = (a > b) ? a : b;
+                printf("Maximum is %d\n", max);
+                break;
+            }
+
+            case 0:
+                printf("Exiting program...\n");
+                break;
+
+            default:
+                printf("Invalid choice!\n");
+        }
+
+    } while(choice != 0);
+
+    return 0;
+}

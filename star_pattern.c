@@ -319,7 +319,7 @@ do{
             printf("Invalid Choice!");
             
     }
-    printf("do you want to explore more??....(0 OR 1)");
+    printf("do you want to explore more??....(0 OR 1)\n");
             scanf("%d",&choice);
 }while(choice !=0);
 

@@ -312,6 +312,7 @@ do{
                     printf("* ");
                 printf("\n");
             }
+            
             break;
 
         default:

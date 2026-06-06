@@ -24,7 +24,7 @@ do{
     printf("17. Triangle Numbers with Stars\n");
     printf("18. Star Border\n");
     printf("19. Star Staircase\n");
-    printf("20. Pyramid with Spaces\n");
+    printf("20. zig-zag stars\n");
     printf("0.Exit");
 
     printf("\nEnter Choice: ");
@@ -240,32 +240,61 @@ do{
             break;
 
         case 15: // Left Arrow
-            for(i=1;i<=3;i++)
+        {
+            int n = 5;
+
+            for(i=1; i<=n; i++)
             {
-                for(j=1;j<=3-i;j++) printf(" ");
-                for(j=1;j<=2*i-1;j++) printf("*");
+                for(j=1; j<=n-i; j++)
+                    printf(" ");
+
+                for(j=1; j<=i; j++)
+                    printf("*");
+
                 printf("\n");
             }
-            for(i=2;i>=1;i--)
+
+            for(i=n-1; i>=1; i--)
             {
-                for(j=1;j<=3-i;j++) printf(" ");
-                for(j=1;j<=2*i-1;j++) printf("*");
+                for(j=1; j<=n-i; j++)
+                    printf(" ");
+
+                for(j=1; j<=i; j++)
+                    printf("*");
+
                 printf("\n");
             }
+        }
             break;
 
         case 16: // Sandglass
-            for(i=5;i>=1;i--)
+        {
+            int n = 5;
+
+            for(i=n; i>=1; i--)
             {
-                for(j=1;j<=2*i-1;j++) printf("*");
+                for(j=1; j<=n-i; j++)
+                    printf(" ");
+
+                for(j=1; j<=2*i-1; j++)
+                    printf("*");
+
                 printf("\n");
             }
-            for(i=2;i<=5;i++)
+
+            for(i=2; i<=n; i++)
             {
-                for(j=1;j<=2*i-1;j++) printf("*");
+                for(j=1; j<=n-i; j++)
+                    printf(" ");
+
+                for(j=1; j<=2*i-1; j++)
+                    printf("*");
+
                 printf("\n");
             }
-            break;
+        }
+
+                    break;
 
         case 17: // Triangle Stars
             for(i=1;i<=5;i++)
@@ -305,23 +334,36 @@ do{
             }
             break;
 
-        case 20: // Pyramid with spaces
-            for(i=1;i<=5;i++)
+        case 20: // zig zag
+                
+           int n = 5;
+
+            for(i=1; i<=n; i++)
             {
-                for(j=1;j<=i;j++)
-                    printf("* ");
+                for(j=1; j<=2*n-1; j++)
+                {
+                    if(j==1 || j==2*n-1 ||
+                    (j==i && i<=n/2+1) ||
+                    (j==2*n-i && i<=n/2+1))
+                        printf("*");
+                    else
+                        printf(" ");
+                }
                 printf("\n");
             }
-            
+            case 0:
+            printf("program ended...\n");
+
             break;
+
+            
 
         default:
             printf("Invalid Choice!");
             
     }
-    printf("do you want to explore more??....(0 OR 1)\n\n");
-            scanf("%d",&choice);
-}while(choice !=0);
+    
+}while(ch !=0);
 
     return 0;
 }

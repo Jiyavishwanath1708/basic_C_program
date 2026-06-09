@@ -94,13 +94,13 @@ Enter Row Index: 0
 Enter Column Index: 0
 Enter New Value: 10
 Element Updated Successfully.
-```
+
 Matrix:
   10   2   3   4
    5   6   7   8
    9  10  11  12
   13  14  15  16
-```
+
 Traverse:
 Matrix Traversal:
 arr[0][0] = 10

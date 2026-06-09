@@ -36,8 +36,10 @@ A collection of programs demonstrating fundamental operations on **One-Dimension
 * Access Element
 * Update Element
 * Traverse Matrix
-* Find Row Sum
-* Find Column Sum
+* Find Maximum
+* Find Minimum
+* Find Sum
+* Find Average
 
 ---
 

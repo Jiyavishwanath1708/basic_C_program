@@ -127,17 +127,6 @@ This folder contains **menu-driven pattern printing programs** written in C. The
 
 ---
 
-### 🚀 Topics Used
-
-* `for` loops
-* Nested loops
-* `switch` statements
-* Functions
-* Conditional statements
-* Pattern logic
-* Character manipulation
-
----
 
 **Language:** C
 **Type:** Menu-Driven Pattern Programs

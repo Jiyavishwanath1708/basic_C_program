@@ -95,12 +95,114 @@ Contains recursive programs and parameter passing techniques.
 
 | Category                        |     Programs     |
 | ------------------------------- | :--------------: |
-| 📌 Predefined Functions         |         9        |
+| 📌 Pre-defined Functions         |         9        |
 | 🛠️ User-Defined Function Types |         4        |
 | 🔁 Recursive Programs           |         6        |
 | **Total**                       | **19+ Examples** |
 
 ---
+
+## 🖥️ Sample Outputs
+
+| Function    | Input              | Output              |
+| ----------- | ------------------ | ------------------- |
+| `sqrt()`    | `25`               | `5.00`              |
+| `pow()`     | `2 5`              | `32.00`             |
+| `abs()`     | `-15`              | `15`                |
+| `strlen()`  | `"Hello"`          | `5`                 |
+| `strcpy()`  | `"Hello"`          | `"Hello"`           |
+| `strcmp()`  | `"abc" "abc"`      | `Strings are equal` |
+| `strcat()`  | `"Good" "Morning"` | `GoodMorning`       |
+| `toupper()` | `'a'`              | `'A'`               |
+| `tolower()` | `'Z'`              | `'z'`               |
+
+**Header Files Used:** `math.h`, `string.h`, `ctype.h`, `stdlib.h`
+
+# 🛠️ user_defined_function.c
+
+### 1. No Arguments, No Return Value
+
+Input:
+
+```text
+Enter two numbers: 10 20
+```
+
+Output:
+
+```text
+Sum = 30
+```
+
+### 2. Arguments, No Return Value
+
+Input:
+
+```text
+Enter two numbers: 15 25
+```
+
+Output:
+
+```text
+Sum = 40
+```
+
+### 3. Arguments, Return Value
+
+Input:
+
+```text
+Enter two numbers: 30 40
+```
+
+Output:
+
+```text
+Sum = 70
+```
+
+---
+
+# 🔁 recursive_function.c
+
+### 1. Factorial using Recursion
+
+Input:
+
+```text
+Enter a number: 5
+```
+
+Output:
+
+```text
+Factorial of 5 = 120
+```
+
+### 2. Fibonacci Series
+
+Input:
+
+```text
+Enter number of terms: 7
+```
+
+Output:
+
+```text
+0 1 1 2 3 5 8
+```
+
+### 3. Call by Reference
+
+Output:
+
+```text
+Before Function Call : num = 10
+Inside Function      : x = 20
+After Function Call  : num = 20
+```
 
 ### 🚀 Language
 

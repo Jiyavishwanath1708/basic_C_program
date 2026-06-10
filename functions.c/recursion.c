@@ -23,7 +23,7 @@ int factorial(int);
 int fibonacci(int);
 int sumOfNaturalNumbers(int);
 int reverseNumber(int, int);
-
+int isPrime(int, int);
 // Call by Value and Call by Reference Functions
 void callByValue(int);
 void callByReference(int *);
@@ -41,7 +41,8 @@ int main()
         printf("4. Reverse a Number using Recursion\n");
         printf("5. Call by Value\n");
         printf("6. Call by Reference\n");
-        printf("7. Exit\n");
+        printf("7.prime NUmber\n");
+        printf("8. Exit\n");
 
         printf("\nEnter your choice: ");
         scanf("%d", &choice);
@@ -109,6 +110,19 @@ int main()
             break;
 
         case 7:
+            printf("Enter a number: ");
+            scanf("%d", &num);
+
+            if (num <= 1)
+                printf("%d is not a Prime Number.\n", num);
+            else if (isPrime(num, num / 2))
+                printf("%d is a Prime Number.\n", num);
+            else
+                printf("%d is not a Prime Number.\n", num);
+
+            break;
+
+        case 8:
             printf("Exiting Program...\n");
             break;
 

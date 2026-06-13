@@ -1,5 +1,6 @@
 
 # 💻 Basic C Programs
+![alt text](image.png)
 
 Welcome to my C programming repository!
 This repo contains simple and beginner-friendly C programs to understand basic concepts.

@@ -36,7 +36,23 @@ This repo contains simple and beginner-friendly C programs to understand basic c
 ├── 07_File_Handling
 └── README.md
 ```
-
+## This Repository Includes
+---
+1. Hello world code + C language History.
+2. Basic C structure
+3. Datatype & Variable
+4. C Tokens
+5. Operators
+6. Desision making statements
+7. Loops
+8. string operations
+9. Arrays
+10. Patterns
+11. pointers
+12. structure 
+13. functions
+14. File handling
+---
 ---
 
 ## 🛠️ Technologies Used

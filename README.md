@@ -7,167 +7,112 @@ This repo contains simple and beginner-friendly C programs to understand basic c
 
 ---
 
+## This Repository Includes
+---
+1. Hello world code + C language History.
+2. Basic C structure
+3. Datatype & Variable
+4. C Tokens
+5. Operators
+6. Desision making statements
+7. Loops
+8. string operations
+9. Arrays
+10. Patterns
+11. pointers
+12. structure 
+13. functions
+14. File handling
+---
 ## 📌 Programs Included
 
-### 1️⃣ Hello World Program
+# 💻 Basic C Programs
 
-* First and simplest C program
-* Used to print output on screen
+<p align="center">
+  <img src="image.png" alt="Basic C Programs Banner">
+</p>
 
-```c
-#include <stdio.h>
+<p align="center">
+  Beginner-friendly C programs covering fundamental concepts from basic syntax to file handling.
+</p>
 
-int main() {
-    printf("Hello, World!");
-    return 0;
-}
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-C-blue.svg">
+  <img src="https://img.shields.io/badge/Compiler-GCC-green.svg">
+  <img src="https://img.shields.io/badge/Level-Beginner-orange.svg">
+  <img src="https://img.shields.io/badge/Status-Completed-success.svg">
+</p>
+
+---
+
+## 📂 Repository Structure
+
+```
+📦 Basic_C_Programs
+├── 01_Basic_Concepts
+├── 02_Arrays
+├── 03_Patterns
+├── 04_Functions
+├── 05_Pointers
+├── 06_Structures
+├── 07_File_Handling
+└── README.md
 ```
 
 ---
 
-### 2️⃣ Data Types & Variables (All-in-One Program)
+## 🛠️ Technologies Used
 
-## 📚 Topics Covered
-
-* Data Types
-* Variables
-* Input/Output
-* Constants
-* Type Casting
-* Memory Size (sizeof)
-* Basic Syntax
-## 💻 Output
-```
-Integer (age) = 20
-Float (percentage) = 85.50
-Double (pi) = 3.1415900000
-Character (grade) = A
-Boolean (isPassed) = 1
-
-Size of int = 4 bytes
-Size of float = 4 bytes
-Size of double = 8 bytes
-Size of char = 1 bytes
-
-Constant MAX = 100
-
-Multiple Variables:
- a=10, b=20, c=30
-
-age before update: 20
-age after Updated : 25
-```
-
+* Language: C
+* Compiler: GCC
+* IDE: VS Code
 
 ---
 
-# 3️⃣ Basic Structure of C Program
-## 📌 Topics 
-```
-1. Documentation Section  
-2. Preprocessor Section  
-3. Definition Section  
-4. Global Declaration  
-5. Main Function  
-6. Sub Program (Function)  
-```
----
-## 💻 Output
-```
-Global Variable = 10
-Radius = 5
-Area of Circle = 78.50
-This is a sub program (function).
-```
-## 4️⃣ C Tokens Program
-### 📌 Topics Covered
-- Keywords
-- Identifiers
-- Constants
-- Strings
-- Operators
-- Special Symbols
-### 💻 Example output
-```
-* * * * * MAIN MENU * * * * *
-1.keywords
-2.identifiers
-3.constants
-4.strings
-5.operators
-6.special symbols
-0.exit..
-enter choice
-1
-***** C KEYWORDS *****
+## 🎯 Learning Objectives
 
-auto       break      case       char       const     
-continue   default    do         double     else      
-enum       extern     float      for        goto      
-if         int        long       register   return    
-short      signed     sizeof     static     struct    
-switch     typedef    union      unsigned   void      
-volatile   while     
-Keywords used: int, float, return
-Values: a = 10, b = 5.500000
-```
-
-### 📝 Note
-The program is **menu-driven**, and each option demonstrates a different type of C token such as **identifiers, constants, strings, operators, and special symbols**.  
-All functions follow a **similar structure**, where selecting a menu option calls the corresponding function and displays examples of that specific token.
-## 5️⃣ Operators in C (Menu Driven Program)
-### 📌 Operators Covered
-- Unary Operators
-- Arithmetic Operators
-- Relational Operators
-- Logical Operators
-- Assignment Operators
-- Ternary Operator
-### 💻 Example Output
-```
-* * * * MAIN MENU * * * *
-1.unary operator
-2.binary operator
-3.ternary operators
-0.exit
-enter choice 2
-------binary operators-----
-A.Arithmetic operators
-B.relational operator
-C. logical operotor
-D.assignment operators
-enter choice
-A
----- Arithmetic Operators ----
-Enter two numbers:  2 3
-Addition = 5
-Subtraction = -1
-Multiplication = 6
-Division = 0
-Modulus = 2
-```
-### 📝 Note
-*(Only one sample output is shown. Other operator functions work in a similar way.)*
-## 🛠️ How to Run
-
-1. Install any C compiler (like GCC)
-2. Compile the program:
-
-   ```
-   gcc filename.c -o output
-   ```
-3. Run the program:
-
-   ```
-   ./output
-   ```
+* Understand core concepts of C programming.
+* Practice problem-solving through programs.
+* Learn memory management using pointers.
+* Work with structures and file handling.
+* Build a strong foundation for Data Structures and Algorithms.
 
 ---
-## 👩‍💻 Author
+
+## ▶️ How to Run
+
+Compile:
+
+```bash
+gcc filename.c -o output
+```
+
+Run:
+
+```bash
+./output
+```
+
+---
+
+## 🌟 Highlights
+
+✔ Beginner Friendly
+
+✔ Well Organized Folder Structure
+
+✔ Concept-wise Programs
+
+✔ Practical Examples
+
+✔ Portfolio Project
+
+---
+
+## 👨‍💻 Author
 
 **Jiya Vishwanath**
 
 ---
-
 ✨ Keep Learning & Keep Coding!
 
